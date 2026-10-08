@@ -19,3 +19,8 @@ class Rectangle:
     def main():
         print("=== Rectangle Calculator ===")
         try:
+
+            length = float(input("Enter the length (cm): "))
+            width = float(input("Enter the width (cm): "))
+
+        
