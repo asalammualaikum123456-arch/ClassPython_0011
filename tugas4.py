@@ -32,4 +32,13 @@ class Rectangle:
             print("\n--- Output ---")
             print(my_rectangle)
 
+            print(f"Area: {my_rectangle.calculate_area()} cm²")
+            print(f"Circumference: {my_rectangle.calculate_circumference()} cm")
+            
+        except ValueError as e:
+            print(f"Invalid input! {e}")
+            
+            if __name__ == "__main__":
+                main()
+
         
