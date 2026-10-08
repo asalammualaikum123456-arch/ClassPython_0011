@@ -5,3 +5,6 @@ class Rectangle:
             raise ValueError("The input value cannot be 0.")
         self.length = length
         self.width = width
+
+    def calculate_circumference(self):
+        return 2 * (self.length + self.width)
