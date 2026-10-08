@@ -23,4 +23,8 @@ class Rectangle:
             length = float(input("Enter the length (cm): "))
             width = float(input("Enter the width (cm): "))
 
+            if length == 0 or width == 0:
+                        print("Error: The input value cannot be 0.")
+                        return
+
         
