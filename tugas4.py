@@ -29,4 +29,7 @@ class Rectangle:
 
             my_rectangle = Rectangle(length, width)
 
+            print("\n--- Output ---")
+            print(my_rectangle)
+
         
