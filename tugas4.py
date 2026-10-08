@@ -27,4 +27,6 @@ class Rectangle:
                         print("Error: The input value cannot be 0.")
                         return
 
+            my_rectangle = Rectangle(length, width)
+
         
